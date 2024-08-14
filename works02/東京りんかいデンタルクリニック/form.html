@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="豊洲ベイサイドクロスタワーに東京りんかいデンタルクリニックが開院致しました。">
+  <meta name="keywords" content="歯医者,東京都江東区,toyosu,豊洲,土曜日診察可能,東京りんかいデンタルクリニック,歯科,インプラント">
+  <meta name="robots" content="noindex,nofollow">
+  <title>東京りんかいデンタルクリニック（TOKYO WATERFRONT DENTAL CLINIC）| WEB予約フォーム</title>
+  <!-- OGP -->
+  <meta property="og:title" content="TOKYO WATERFRONT DENTAL CLINIC">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="豊洲ベイサイドクロスタワーに東京りんかいデンタルクリニックが開院致しました。土曜日も18時まで治療を受け付けております.">
+  <meta property="og:url" content="https://www.tokyo-waterfront-dental.com/">
+  <meta property="og:site_name" content="東京りんかいデンタルクリニックのWEBサイト">
+  <meta property="og:image" content="https://www.tokyo-waterfront-dental.com/images/ogp_photo.jpg">
+
+  <!--icon -->
+  <link rel="icon" href="images/common/favicon.ico">
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <!--FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b10be3a907.js" crossorigin="anonymous"></script>
+  <!--reset css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- layout -->
+  <link rel="stylesheet" href="css/form.css">
+  <!-- jQuery 本体-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- main js-->
+  <script src="js/main.js"></script>
+</head>
+
+<body class="page-form">
+  <header>
+    <div class="wrapper">
+      <h1>WEB診療予約</h1>
+    </div>
+  </header>
+
+  <main>
+      <h2 class="title title-center">WEB予約フォーム</h2>
+      <p class="text-medium">下記の予約フォームにすべてご記入の上、送信してください。</p>
+      <form action="/" method="post">
+        <table>
+          <tr>
+            <th>診察内容</th>
+            <td>
+                <div class="select-box">
+                    <select name="current-position">
+                        <option value="初診">【初診】</option>
+                        <option value="クリーニング">【クリーニング】</option>
+                        <option value="定期検診">【定期検診】</option>
+                    </select>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <th>予約日時</th>
+            <td><input type="date" name="reserve-date" value=""></td>
+          </tr>
+          <tr>
+            <th>希望時間帯</th>
+            <td>
+                <div class="select-box">
+                    <select name="current-position">
+                        <option value="午前中：9:00~13:00">午前中：9:00~13:00</option><i class="fa-solid fa-caret-down"></i>
+                        <option value="午後：15:00~18:00">午後：15:00~18:00</option>
+                        <option value="夜間：18:00~21:00">夜間：18:00~21:00</option>
+                        <option value="土曜午前中：9:00~13:00">土曜午前中：9:00~13:00</option>
+                        <option value="土曜午後：15:00~18:00">土曜午後：15:00~13:00</option>
+                    </select>
+                    
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <th>お名前</th>
+            <td><input type="text" name="name" value="" placeholder="例：山田太郎" required></td>
+          </tr>
+          <tr>
+            <th>フリガナ</th>
+            <td><input type="text" name="kana" value="" placeholder="例：ヤマダタロウ" required></td>
+          </tr>
+          <tr>
+            <th>メールアドレス</th>
+            <td><input type="email" name="email" value="" placeholder="例：hello@example.com"></td>
+          </tr>
+          <tr>
+            <th>御連絡先</th>
+            <td><input type="text" name="tel" value="" placeholder="例：000-0000-0000" required></td>
+          </tr>
+          <tr>
+            <th>御質問・御要望</th>
+            <td colspan="5">
+              <textarea name="question" rows="5" cols="30"></textarea>
+            </td>
+          </tr>
+        </table>
+        <p class="text-center">
+          <input type="submit" class="btn btn-primary" value="送信する">
+      </p>
+      </form>
+  </main>
+
+  <!-- 送信完了メッセージの表示場所 -->
+  <div id="message"></div>
+
+  <footer>
+      <p class="copyright"><small>&copy;&nbsp;2024&nbsp;TOKYO WATERFRONT DENTAL CLINIC All Rights Reserved.</small></p>
+  </footer>
+  <a href="#" id="topback"><i class="fa regular fa-circle-up"></i></a>
+</body>
+
+</html>
