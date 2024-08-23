@@ -291,7 +291,7 @@ div.mv_img {
 }
 
 div.mv_img img {
-  width: 90%;
+  width: 60%;
   padding-top: 100px;
 }
 
@@ -634,7 +634,7 @@ h1.profile::before {
   line-height: 1em;
   text-align: left;
   -webkit-text-stroke: 1px #A7A7A7; 
-  text-stroke: 1px #A7A7A7;
+  /* text-stroke: 1px #A7A7A7; */
   z-index: -1;
 }
 
@@ -650,7 +650,7 @@ h1.skill::before {
   line-height: 1em;
   text-align: left;
   -webkit-text-stroke: 1px #A7A7A7; 
-  text-stroke: 1px #A7A7A7;
+  /* text-stroke: 1px #A7A7A7; */
   z-index: -1;
 }
 
@@ -666,7 +666,7 @@ h1.career::before {
   line-height: 1em;
   text-align: left;
   -webkit-text-stroke: 1px #A7A7A7; 
-  text-stroke: 1px #A7A7A7;
+  /* text-stroke: 1px #A7A7A7; */
   z-index: -1;
 }
 
