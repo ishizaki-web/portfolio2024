@@ -835,6 +835,21 @@ div.work-detail {
   margin: 40px auto;
 }
 
+.site_url {
+  margin-top: -40px;
+  margin-left: 160px;
+  padding: 5px 20px;
+  color: #fff;
+  background-color: #EF4123;
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+.site_url:hover {
+  background-color: #c4c4c4;
+  color: #000;
+}
+
 p.desc {
   margin-bottom: 16px;
 }
