@@ -254,12 +254,12 @@ section.mv {
   margin: 0 auto 120px auto;
 }
 
-div.mv_title {
+h1.mv_title {
   margin-left: 100px;
   z-index: 10;
 }
 
-p.site_title {
+div.site_title {
   font-weight: bold;
   font-size: 48px;
   letter-spacing: 8px;
