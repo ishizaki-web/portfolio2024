@@ -24,7 +24,7 @@ $(function(){
 
 $(function() {
   $('.typed').typed({
-    strings: ["I'm a growing web developer."],
+    strings: ["I'm a growing web designer."],
     typeSpeed: 50,
     startDelay: 500,
     backSpeed: 20,
